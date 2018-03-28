@@ -70,7 +70,6 @@ function rdp_RenameDefaultPost(){
 	$not_found_in_trash = (isset($data['not_found_in_trash']))? esc_html($data['not_found_in_trash']) : __('No News found in Trash', 'RenameDefaultPost');
 	?>
         <div class="wrap">
-            <?php screen_icon('edit-pages'); ?>
 			<h2><?php _e('Rename Default Post', 'RenameDefaultPost') ?></h2>
             <h4><?php _e('Rename your Default Post name to custom name in admin menu', 'RenameDefaultPost') ?></h4>
             <form method="post" action="">
