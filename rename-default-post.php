@@ -58,16 +58,16 @@ function rdp_RenameDefaultPost(){
 		$data =  get_option('RenameDefaultPost'); 
 		//print_r($data);
 	}
-	$name = (isset($data['name']))? esc_html($data['name']) : __('News', 'RenameDefaultPost');
-	$singular_name = (isset($data['singular_name']))? esc_html($data['singular_name']) : __('News', 'RenameDefaultPost') ;
-	$add_new = (isset($data['add_new']))? esc_html($data['add_new']) : __('Add News', 'RenameDefaultPost');
-	$add_new_item = (isset($data['add_new_item']))? esc_html($data['add_new_item']) : __('Add News', 'RenameDefaultPost');
-	$edit_item = (isset($data['edit_item']))? esc_html($data['edit_item']) : __('Edit News', 'RenameDefaultPost');
-	$new_item = (isset($data['new_item']))? esc_html($data['new_item']) : __('News', 'RenameDefaultPost');
-	$view_item = (isset($data['view_item']))? esc_html($data['view_item']) : __('View News', 'RenameDefaultPost');
-	$search_items = (isset($data['search_items']))? esc_html($data['search_items']) : __('Search News', 'RenameDefaultPost');
-	$not_found = (isset($data['not_found']))? esc_html($data['not_found']) : __('No News found', 'RenameDefaultPost');
-	$not_found_in_trash = (isset($data['not_found_in_trash']))? esc_html($data['not_found_in_trash']) : __('No News found in Trash', 'RenameDefaultPost');
+	$name = (isset($data['name']))? esc_html($data['name']) : __('Articles', 'RenameDefaultPost');
+	$singular_name = (isset($data['singular_name']))? esc_html($data['singular_name']) : __('Article', 'RenameDefaultPost') ;
+	$add_new = (isset($data['add_new']))? esc_html($data['add_new']) : __('Add New', 'RenameDefaultPost');
+	$add_new_item = (isset($data['add_new_item']))? esc_html($data['add_new_item']) : __('Add New Article', 'RenameDefaultPost');
+	$edit_item = (isset($data['edit_item']))? esc_html($data['edit_item']) : __('Edit Article', 'RenameDefaultPost');
+	$new_item = (isset($data['new_item']))? esc_html($data['new_item']) : __('New Article', 'RenameDefaultPost');
+	$view_item = (isset($data['view_item']))? esc_html($data['view_item']) : __('View Article', 'RenameDefaultPost');
+	$search_items = (isset($data['search_items']))? esc_html($data['search_items']) : __('Search Articles', 'RenameDefaultPost');
+	$not_found = (isset($data['not_found']))? esc_html($data['not_found']) : __('No articles found', 'RenameDefaultPost');
+	$not_found_in_trash = (isset($data['not_found_in_trash']))? esc_html($data['not_found_in_trash']) : __('No articles found in Trash', 'RenameDefaultPost');
 	?>
         <div class="wrap">
 			<h2><?php _e('Rename Default Post', 'RenameDefaultPost') ?></h2>
